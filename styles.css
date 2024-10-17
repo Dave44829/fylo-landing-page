@@ -7,6 +7,8 @@ padding-top: 3%;
 width: 90%;
 margin: auto;}
 
+a {text-decoration: none ;}
+
 .fylo {text-decoration: none;
 color: rgb(19, 11, 90);}
 
@@ -148,10 +150,12 @@ text-align: center;
 
 
     .headerGrid {display: grid;
-        grid-template-columns: 5fr 1.5fr 1fr 1fr;
+        grid-template-columns: 3fr 1.5fr 1fr 1fr;
         padding-top: 3%;
         width: 90%;
         margin: auto;}
+
+    .logo1 {width: 50%;}
     
     .Hero {display: grid;
         grid-template-rows: 1fr 1fr;
@@ -238,7 +242,7 @@ text-align: center;
 
 
     .headerGrid {display: grid;
-        grid-template-columns: 5fr 1.3fr 1fr 1fr;
+        grid-template-columns: 2fr 1.3fr 1fr 1fr;
         padding-top: 3%;
         width: 90%;
         margin: auto;}
@@ -251,6 +255,11 @@ text-align: center;
         margin: auto;
         }
 
+        .div-2nd {padding-top: 0%;
+            padding-bottom: 0%;}
+    
+
+    .logo1 {width: 70%;}
 
     .heroText {margin-top: 17%;
      margin-left: 5%;
@@ -354,17 +363,20 @@ font-size: 0.9rem;}
 
     .fylo {text-decoration: none;
         color: rgb(19, 11, 90);
-    margin-left: 35%;}
+    margin-left: 30%;}
             
 
-    #formField {padding: 2%;
-        width: 35%;
+    #formField {
+        width: 80%;
+        display: block;
+        margin-bottom: 1%;
     }
 
         
     #formButton {background-color: rgb(47, 101, 249);
-        width: 25%;
+        width: 86%;
         padding: 2%;
+        display: block;
         border: none;
         color: white;}
 
@@ -377,7 +389,7 @@ font-size: 0.9rem;}
         margin-top: 5%;}
             
     #formButton1 {background-color: rgb(47, 101, 249);
-        width: 64.9%;
+        width: 65%;
         padding: 2%;
         display: block;
         margin-top: 1%;
